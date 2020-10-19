@@ -1,0 +1,8 @@
+apiVersion: init.add.com/v1alpha1
+kind: Grpc
+metadata:
+  name: grpc-sample
+spec:
+  # Add fields here
+  replica: 4
+  image: shr555/api-service:v1.0
